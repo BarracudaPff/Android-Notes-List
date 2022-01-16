@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 );
                 notes.add(note);
                 noteAdapter.notifyDataSetChanged();
+                recyclerView.smoothScrollToPosition(notes.size());
             }
         });
     }

@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Note {
     public String title;
-    private String description; // nullable
+    private final String description; // nullable
     public Date timeCreated;
     public boolean isChecked;
 
